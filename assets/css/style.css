@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#header {
+    background-color: #000;
+    width: 100%;
+    height: 38.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .social-list a,
+#header .search-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    line-height: 38.5px;
+}
+
+#header .social-list a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#header .search-btn a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#logo {
+    background-color: #fff;
+    width: 100%;
+    padding: 48px 16px;
+}
+
+#logo .logo-content {
+    text-align: center;
+}
+
+#logo .head-logo {
+    font-size: 48px;
+}
+
+#logo .logo-content h5,
+#logo .logo-content span {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+#logo .logo-content span {
+    background-color: #000;
+    color: #fff;
+    padding: 0 8px;
+}
+
+#home {
+    position: relative;
+}
+
+#home .text-img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 12px 24px;
+}
+
+#home h1,
+#home p {
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 64px;
+}
+
+#home button {
+    padding: 12px 24px;
+    background-color: #fff;
+    opacity: 0.6;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    opacity: 1;
+}
+
+#main {
+    display: grid;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+}
+
+#main .content-left {
+    grid-column: 1/5;
+}
+
+#main .content-right {
+    grid-column: 5/7;
+}
+
+#main .main-content {
+    padding: 12px 24px;
+    margin: 16px;
+    background-color: #fff;
+    /* display: flex; */
+}
+
+#main .main-content h1,
+#main .main-content h4 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#main .main-content h4 span {
+    opacity: 0.6;
+}
+
+#main .main-content img {
+    padding: 16px 0;
+}
+
+#main .main-content p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+#main .like-replies {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .like-replies button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#main .like-replies button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#main .like-replies .replies {
+    background-color: #000;
+    color: #fff;
+}
+
+#main .like-replies .number-rep {
+    background-color: #fff;
+    color: #000;
+    padding: 0 8px;
+}
+
+#main .replies-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main .replies hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+#main .img-replies img {
+    /* float: left; */
+    width: 90px;
+}
+
+#main .text-replies h5,
+#main .text-replies p {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#main .text-replies h5 {
+    font-size: 20px;
+}
+
+#main .text-replies span,
+#main .text-replies p {
+    font-size: 15px;
+}
+
+#main .my-name {
+    margin: 16px;
+}
+
+#main .my-name img {
+    vertical-align: middle;
+    filter: grayscale(75%);
+}
+
+#main .my-name .myname-text {
+    background-color: #000;
+    padding: 0.15px 16px;
+}
+
+#main .my-name .myname-text h3,
+#main .my-name .myname-text p {
+    color: #fff;
+}
+
+#main .my-name .myname-text h3 {
+    margin: 10px;
+}
+
+#main .my-name .myname-text p {
+    margin: 15px;
+    font-size: 15px;
+}
+
+#main .popular-post {
+    margin: 16px;
+    background-color: #fff;
+}
+
+#main .popular-post .popular-heading {
+    padding: 8px 16px;
+    background-color: #000;
+}
+
+#main .popular-post .popular-heading h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+#main .popular-post ul {
+        list-style-type: none;
+}
+
+#main .popular-post ul li {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#main .popular-post ul li:hover {
+    background-color: #ccc;
+}
+
+#main .popular-post img {
+    width: 50px;
+    float: left;
+    margin-right: 16px;
+}
+
+#main .advertise {
+    margin: 16px;
+}
+
+#main .advertise .ad-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#main .ad-heading h3 {
+    margin: 10px 0;
+}
+
+#main .advertise .container-ad {
+    background-color: #fff;
+    padding: 0.01em 16px;
+}
+
+#main .advertise .text-ad {
+    height: 200px;
+    background-color: #f1f1f1;
+    margin: 16px 0;
+    position: relative;
+}
+
+#main .advertise p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main .tag {
+    margin: 16px;
+}
+
+#main .tag .tag-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#main .tag-heading h3 {
+    margin: 10px 0;
+}
+
+#main .tag .tag-text {
+    background-color: #fff;
+    padding: 0.01em 16px;
+}
+
+#main .tag .tag-text .tag-black {
+    background-color: #000;
+    color: #fff;
+}
+
+#main .tag .tag-text p {
+    margin: 15px 0;
+}
+
+#main .tag .tag-text span {
+    color: #000;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    padding: 0 8px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#main .inspiration {
+    margin: 16px;
+    display: grid;
+}
+
+#main .inspiration .inspiration-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#main .inspiration h3 {
+    margin: 10px 0;
+}
+
+#main .inspiration .inspiration-img {
+    background-color: #fff;
+}
+
+#main .inspiration .inspiration-img .col-img {
+    width: 49.99999%;
+    float: left;
+    padding: 0 8px;
+}
+
+#main .inspiration .inspiration-img p {
+    margin: 15px 0;
+}
+
+#main .follow-me {
+    margin: 16px;
+}
+
+#main .follow-me .follow-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#main .follow-me h3 {
+    margin: 10px 0;
+}
+
+#main .icon-follow i:hover {
+    opacity: 0.6;
+}
+
+#main .icon-follow {
+    background-color: #fff;
+    padding: 8px 16px;
+}
+
+#main .icon-follow i {
+    font-size: larger;
+}
+
+#main .subscribe {
+    margin: 16px;
+}
+
+#main .subscribe .sub-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#main .subscribe h3 {
+    margin: 10px 0;
+}
+
+#main .sub-text {
+    background-color: #fff;
+    padding: 8px 16px;
+}
+
+#main .sub-text p {
+    margin: 15px 0;
+}
+
+#main .sub-text input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#main .sub-text button {
+    background-color: #f44336;
+    color: #fff;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+}
+
+#main .sub-text button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+#footer {
+    padding: 32px;
+    background-color: #616161;
+}
+
+#footer .top {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+#footer .top:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#footer i {
+    margin-right: 16px;
+}
+
+#footer p {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+#footer a {
+    color: #fff;
+}
