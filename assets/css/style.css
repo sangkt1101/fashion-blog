@@ -225,6 +225,7 @@ img {
 #main .my-name .myname-text p {
     margin: 15px;
     font-size: 15px;
+    line-height: 1.5;
 }
 
 #main .popular-post {
