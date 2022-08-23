@@ -8,6 +8,10 @@ img {
     width: 100%;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
 #header {
     background-color: #000;
     width: 100%;
